@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first Project</title>
+    <link rel="stylesheet" href="./Styles/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <figure>
+                <picture><img src="./imgs/RestaurantLogo.png" alt="logo of the restaurant" width="60px" height="60px"></picture>
+                <figcaption>Bella Vista</figcaption>
+            </figure>
+            
+            <ul>
+                <li><a href="./index.html"></a>Home</li>
+                <li><a href="./About/about.html"></a>About</li>
+                <li><a href="#menu"></a>Menu</li>
+                <li><a href="./Contact/contact.html"></a>Contact</li>
+                <li id="buttonR"><button href="#reserverTable"></button>Reserve Table</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="heroSection">
+            <h1>Bella Vista</h1>
+            <p>Experience authentic Italian cuisine in the heart of the city</p>
+            <div>
+                <button id="makeReservationButton">Make Reservation</button>
+                <button id="viewMenuButton">View Menu</button>
+            </div>
+        </section>
+
+        <section>
+            <aside>  
+                    <span>Our Story</span>
+                    <h2>Authentic Italian Flavors Since 1985</h2>
+                    <p>For over three decades, Bella Vista has been serving the finest Italian cuisine, crafted with love and tradition. Our recipes have been passed down through generations, bringing you the authentic taste of Italy.
+                    <br><br>From our wood-fired pizzas to our handmade pasta, every dish is prepared with the freshest ingredients and utmost care. Join us for an unforgettable dining experience.</p>            
+                    <ul>
+                        <li>
+                            <h3>38+</h3>
+                            <p>Years Experience</p>
+                        </li>
+                        <li>
+                            <h3>50k+</h3>
+                            <p>Happy Customers</p>
+                        </li>
+                        <li>
+                            <h3>4.9</h3>
+                            <p>Rating</p>
+                        </li>
+                    </ul>
+                    <img src="./imgs/restaurant.jfif" alt="restaurant interior design restaurant image with tables and chairs">
+            </aside>    
+        </section>
+
+        <section>
+            <span id="menu">Our Menu</span>
+            <h2>Signature Dishes</h2>
+            <p>Discover our most beloved dishes, crafted with authentic Italian recipes and the finest ingredients</p>
+            <ul>
+                <li>
+                    <figure>
+                        <picture><img src="./imgs/margheritaPizza.jfif" alt="Margherita Pizza image "></picture>
+                        <figcaption>
+                            <div>
+                                <h4>Margherita Pizza </h4>
+                                <h3>$18</h3>
+                            </div>    
+                            <p>Fresh mozzarella, basil, and tomato sauce on our signature wood-fired crust</p>
+                        </figcaption>
+                    </figure>
+                </li>
+
+                <li>
+                    <figure>
+                        <picture><img src="./imgs/pastaCarbonara.jfif" alt="Pasta Carbonara"></picture>
+                        <figcaption>
+                            <div>
+                                <h4>Pasta Carbonara</h4>
+                                <h3>$22</h3>
+                            </div>    
+                            <p>Creamy pasta with pancetta, eggs, and Parmigiano-Reggiano cheese</p>
+                        </figcaption>
+                </li>
+                
+                <li>    
+                    <figure>
+                        <picture><img src="./imgs/ossoBuco.jfif" alt="Osso Buco"></picture>
+                        <figcaption>
+                            <div>
+                                <h4>Osso Buco</h4>
+                                <h3>$32</h3>
+                            </div>    
+                            <p>Braised veal shanks with vegetables, white wine, and broth</p>
+                        </figcaption>
+                    </figure>
+                </li>
+
+                <li>
+                    <figure>
+                        <picture><img src="./imgs/tiramisu.jfif" alt="Tiramisu"></picture>
+                        <figcaption>
+                            <div>
+                                <h4>Tiramisu</h4>
+                                <h3>$12</h3>
+                            </div>    
+                            <p>Classic Italian dessert with coffee-soaked ladyfingers and mascarpone</p>
+                        </figcaption>
+                    </figure>
+                </li>
+
+                <li>
+                    <figure>
+                        <picture><img src="./imgs/RisottoAiFunghi.jfif" alt="Risotto ai Funghi"></picture>
+                        <figcaption>
+                            <div>
+                                <h4>Risotto ai Funghi</h4>
+                                <h3>$24</h3>
+                            </div>    
+                            <p>Creamy arborio rice with mixed wild mushrooms and truffle oil</p>
+                        </figcaption>
+                    </figure>
+                </li>
+
+                <li>
+                    <figure>
+                        <picture><img src="./imgs/branzino.jfif" alt="Branzino"></picture>
+                        <figcaption>
+                            <div>
+                                <h4>Branzino</h4>
+                                <h3>$28</h3>
+                            </div>    
+                            <p>Mediterranean sea bass with lemon, herbs, and roasted vegetables</p>
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+            <button>View Full Menu</button>
+        </section>
+
+        <section>
+            <aside>
+                <span id="reserverTable">Reservation</span>
+                <h2>Book Your Table</h2>
+                <p>Reserve your table for an unforgettable dining experience. We recommend booking in advance, especially for weekend dinners and special occasions.</p>
+                <h5>Accommodates parties of 2-12 guests</h5>
+                <h5>Extensive wine selection available</h5>
+                <h5>Special occasion packages available</h5>
+            </aside>
+            <form action="">
+                <h2>Make a Reservation</h2>
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
+                <input type="email" placeholder="Email Adress">
+                <input type="number" placeholder="Phone Number">
+                <input type="date">
+                <input type="time">
+                <input type="number" placeholder="Number of Guests">
+                <input type="text" placeholder="Special Requests (optional)">
+                <button type="submit">Reserve Table</button>
+            </form>
+        </section>
+
+        <section>
+            <span>Visit Us </span>
+            <h2>Location & Hours</h2>
+            <ul>
+                <li>
+                    <figure>
+                        <picture><img src="./icons/address-location-map.svg" alt=""></picture>
+                        <figcaption>
+                            <h3>Address</h3>
+                            <a href="">123 Italian Street Downtown  District New York, NY 10001</a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <picture><img src="./icons/phone.svg" alt=""></picture>
+                        <figcaption>
+                            <h3>Contact</h3>
+                            <a href="tel:+5551234568">Phone:(555) 123-4567</a>    
+                            <a href="mailto:mbouachria3@example.com">Email:info@bellavista.com</a>
+                            <a href="tel:+5551234568">Reservation:(555) 123-4568</a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <picture><img src="./icons/hour.svg" alt=""></picture>
+                        <figcaption>
+                            <h3>Hours</h3>
+                            <p> Monday - Thursday: 5:00 PM - 10:00 PM <br>
+                                Friday - Saturday: 5:00 PM - 11:00 PM <br>
+                                Sunday: 4:00 PM - 9:00 PM 
+                            </p>
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <ul>
+            <li>
+                <figure>
+                    <picture><img src="./imgs/RestaurantLogo.png" alt="logo of the restaurant"  width="60px" height="60px"></picture>
+                    <figcaption>Bella Vista</figcaption>
+                </figure>
+                <p>Authentic Italian cuisine in the heart of the city since 1985.</p>
+            </li>
+            <li>
+                <h3>Quick Links</h3>
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Menu</a>
+                <a href="">Contact</a>
+            </li>
+            <li>
+                <h3>Services</h3>
+                <p>
+                    Dine-in <br>Takeout <br>  Catering <br> Private Events
+                </p>
+            </li>
+            <li>
+                <h3>Follow Us</h3>
+                <ul class="social-media">
+                    <li>
+                        <img src="./imgs/facebook.png" alt="Facebook logo" height="35px" width="35px">
+                        <a href="">Facebook</a>
+                    </li>
+                    <li>
+                        <img src="./imgs/instagram.jfif" alt="Instagram logo" height="35px" width="35px">
+                        <a href="">Instagram</a>
+                    </li>
+                    <li>
+                        <img src="./imgs/x.png" alt="X logo" height="35px" width="35px">
+                        <a href="">Twitter</a>
+                    </li>
+                </ul>
+            </li>
+        </ul><hr>
+        <p>&copy; 2025 Bella Vista Restaurant. All rights reserved.</p>
+    </footer>
+</body>
+</html>
