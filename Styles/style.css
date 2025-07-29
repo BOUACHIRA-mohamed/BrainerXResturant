@@ -19,7 +19,9 @@ nav {
   justify-content: space-between;
   align-items: center;
   background-color: white;
-  padding: 0 20px;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 20px;
 }
 nav figure {
   display: flex;
@@ -40,7 +42,7 @@ nav ul {
 
 .heroSection {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   background-image: url(../imgs/restaurentInterior.jpg);
   /*backdrop-filter: blur(10px);*/
   background-repeat: no-repeat;
@@ -291,7 +293,7 @@ form input {
   grid-column: span 2;
 }
 .smallInputs {
-  max-width: 90%;
+  max-width: 100%;
 }
 form input:nth-child(4) {
   grid-column: span 2;
